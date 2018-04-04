@@ -24,8 +24,8 @@ public class QuickSort {
         if (start>=end+1) return;
         int pivot=end;
         int wall=start-1;
-        int i=0;
-        while (i<data.length-1) {
+        int i=start;
+        while (i<end) {
             if (data[i]<=data[pivot]) {
                 wall++;
                 if (wall!=i) swap(data,wall,i);
