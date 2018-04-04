@@ -15,7 +15,8 @@ public class SortData {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        int[] data = {2,4,5,2,1,1,15,8,8};
+        QuickSort.quickSort(data);
     }
     
 }
